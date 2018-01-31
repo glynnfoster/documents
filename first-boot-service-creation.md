@@ -9,7 +9,7 @@ Let's say I want to set up my Oracle Solaris system to take advantage of <a href
 We've made a very simple script to do this as follows:
 
 ```
-# <b>cat myscript.sh</b>
+# cat myscript.sh
 #!/usr/bin/bash
 
 # Bring down the Chef client package - happy to see it's already in IPS format!
@@ -145,7 +145,7 @@ offline*       13:19:05 svc:/site/setup-chef:default
 From the above, we can see that the current state is `offline` but because it has an asterisk beside it, it means that the SMF service is transitioning to online - meaning that it is running it's start method script. We can check what this is doing by looking at the SMF logs for this service instance in `/var/svc/log`:
 
 ```
-# <b>cat /var/svc/log/site-setup-chef\:default.log</b>
+# cat /var/svc/log/site-setup-chef\:default.log
 [ 2016 Nov  3 13:19:05 Enabled. ]
 [ 2016 Nov  3 13:19:05 Executing start method ("/lib/svc/method/site/setup-chef_default"). ]
 Copying original boot environment as solaris-4.orig
