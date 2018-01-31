@@ -240,3 +240,7 @@ or
 ```
 
 So now's the time to move to Oracle Solaris 11.4 and remove some of your post-install customizations. The combination of AI and SMF profiles provides a great way to get a reliable and re-producible system configuration out of the box - crucially important when you're installing 1000's of systems in your cloud environment.
+
+
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.

@@ -312,3 +312,7 @@ smf_method_exit $SMF_EXIT_TEMP_DISABLE method_completed "First boot configuratio
 From the above script, we can see that it checks to see if `/opt/svc-create-first-boot/setup-chef\:default/svc_completed` exists. If it doesn't, it will run our script in `/opt/svc-create-first-boot/setup-chef\:default/scripts`. If it does exist, the service will disable itself again.
 
 So in summary, `svc-create-first-boot` is a useful little utility if you're unfamiliar with how to create IPS packages for your scripts and write SMF services. Longer term, I'd recommend all administrators to get super familiar with IPS and SMF because they are really important in the overall lifecycle management of Oracle Solaris, but as a quick short cut to get you up and running, you can't beat `svc-create-first-boot`. Enjoy!
+
+
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
